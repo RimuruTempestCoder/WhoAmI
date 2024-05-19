@@ -354,7 +354,15 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
+"Assets/Scripts/DoorController.cs"
+"Assets/Scripts/ExternalScript.cs"
+"Assets/Scripts/FirstKeyActivator.cs"
+"Assets/Scripts/KeyStatus.cs"
+"Assets/Scripts/KnifeActivator.cs"
+"Assets/Scripts/KnifeSceneChanger.cs"
 "Assets/Scripts/MainMenuFuncitions.cs"
+"Assets/Scripts/MessageController.cs"
+"Assets/Scripts/OnTriggerAction.cs"
 -langversion:9.0
 
 /deterministic
