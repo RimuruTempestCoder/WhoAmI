@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainHall.unity
     guid: 27c50415bc455a44aa2f27393b86eb84
   - enabled: 1
-    path: Assets/Scenes/CrimeScene.unity
-    guid: 104606203c6913c4c9325636c687c02b
+    path: Assets/Scenes/SisterScene.unity
+    guid: c50f9da76a7a2204dadb6d63bc05a8d6
   m_configObjects: {}
