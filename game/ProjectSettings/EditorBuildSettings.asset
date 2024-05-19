@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SisterScene.unity
     guid: c50f9da76a7a2204dadb6d63bc05a8d6
+  - enabled: 1
+    path: Assets/Scenes/BrotherScene.unity
+    guid: e565e4b7189373043b909991cf2988d2
   m_configObjects: {}

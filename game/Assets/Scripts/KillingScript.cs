@@ -8,6 +8,7 @@ public class KillingScript : MonoBehaviour
     public AudioSource mySound;
     [SerializeField] KeyStatus llaves;
     public string escena;
+    public GameObject objectToHide; 
 
     void Start()
     {
@@ -18,17 +19,28 @@ public class KillingScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && llaves.cuchilloEscena == true)
         {
+            if (objectToHide != null)
+            {
+                Renderer[] renderers = objectToHide.GetComponentsInChildren<Renderer>();
+                foreach (Renderer renderer in renderers)
+                {
+                    renderer.enabled = false;
+                }
+            }
             mySound.enabled = true;
             mySound.PlayOneShot(mySound.clip);
+            
             StartCoroutine(ChangeSceneAfterSound());
         }
     }
 
+    void OnTriggerExit()
+    {
+        SceneManager.LoadScene(escena, LoadSceneMode.Single);
+    }
+
     IEnumerator ChangeSceneAfterSound()
     {
-        // Espera hasta que el clip termine
         yield return new WaitForSeconds(mySound.clip.length);
-        // Cambia la escena
-        SceneManager.LoadScene(escena, LoadSceneMode.Single);
     }
 }
