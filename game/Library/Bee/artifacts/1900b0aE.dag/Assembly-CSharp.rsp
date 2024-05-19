@@ -358,11 +358,13 @@
 "Assets/Scripts/ExternalScript.cs"
 "Assets/Scripts/FirstKeyActivator.cs"
 "Assets/Scripts/KeyStatus.cs"
+"Assets/Scripts/KillingScript.cs"
 "Assets/Scripts/KnifeActivator.cs"
 "Assets/Scripts/KnifeSceneChanger.cs"
 "Assets/Scripts/MainMenuFuncitions.cs"
 "Assets/Scripts/MessageController.cs"
 "Assets/Scripts/OnTriggerAction.cs"
+"Assets/Scripts/RealKnifeActivator.cs"
 -langversion:9.0
 
 /deterministic

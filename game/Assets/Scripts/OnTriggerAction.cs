@@ -13,7 +13,6 @@ public class OnTriggerAction : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Trigger");
             StartCoroutine(MoveAndDeactivate());
         }
     }
