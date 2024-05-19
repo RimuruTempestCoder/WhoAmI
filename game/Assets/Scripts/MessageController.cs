@@ -7,9 +7,11 @@ public class MessageController : MonoBehaviour
 {
     public Text text;
     public string textToShow;
+    public AudioSource mySound;
     void Start()
     {
         text.gameObject.SetActive(false); 
+        mySound.enabled = false;
     }
 
     void OnTriggerEnter(Collider collider)
@@ -18,6 +20,8 @@ public class MessageController : MonoBehaviour
         {
             text.gameObject.SetActive(true); 
             text.text = textToShow; 
+            mySound.enabled = true;
+            mySound.PlayOneShot(mySound.clip);
             StartCoroutine(HideTextAfterDelay(5.0f)); 
         }
     }
