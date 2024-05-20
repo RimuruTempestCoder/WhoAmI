@@ -372,6 +372,7 @@
 "Assets/Scripts/MessageController.cs"
 "Assets/Scripts/OnTriggerAction.cs"
 "Assets/Scripts/RealKnifeActivator.cs"
+"Assets/Scripts/SisterGameOver.cs"
 "Assets/Scripts/SoundOnTrigger.cs"
 -langversion:9.0
 
